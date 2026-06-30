@@ -3,7 +3,7 @@ import java.util.*;
 class Solution {
     public List<String> wordBreak(String s, List<String> wordDict) {
         List<String> ans = new ArrayList<>();
-        Set<String> wordSet = new HashSet<>(wordDict); 
+         Set<String> wordSet = new HashSet<>(wordDict); 
         
         
         solve(s, wordSet, "", ans); 
